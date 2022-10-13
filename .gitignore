@@ -1,0 +1,14 @@
+#sensible data
+.aws/config
+.aws/credentials
+**/envparams.sh
+**/envparams.js
+**/envparams.ts
+**/awsparams.sh
+**/loaddata.sh
+**/github.txt
+**/.DS_Store
+
+#not include models in model-registry
+/model-registry/*
+!model-registry/.gitkeep

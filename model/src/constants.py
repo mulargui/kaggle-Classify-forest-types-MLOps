@@ -1,0 +1,3 @@
+#constants
+NUM_FEATURES = 54
+NUM_CLASSES = 7
