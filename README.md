@@ -25,7 +25,7 @@ Here are some ideas to sophisticate this service
 2. move data to an S3 bucket. If we want to run in a cluster or several instances we need to move the data outside the container/vm. S3 is a very effective way to do that
 3. convert the model registry to an S3 bucket. For similar reasons than above. We can also add versioning so we keep history of the different models we built.
 4. Use jenkins pipelines to build and release. Scripts are ok to experiment but jenkins is a more robust system with the support of a broad  community. I did some experimentation with jenkins (including running it on k8s) here [7]
-5. Add loggin (and store it somewhere). That will allow to add monitoring and alarms to the system. Cloudwatch can be a good starting point.
+5. Add loging (and store it somewhere). That will allow to add monitoring and alarms to the system.
 6. Add performance testing (benchmarking). Compare the performance of the model (accuracy and latency mainly) with previous models and halt the release if not improving performance.
 
 [1] https://github.com/mulargui/kaggle-Classify-forest-types \
